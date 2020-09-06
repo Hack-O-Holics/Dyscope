@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0474C82547C23231C653770AEA0C8F83 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543C0A0DF805AF041C664356E21FD99 /* CardCollectionViewCell.swift */; };
+		05DBC5A4A0411FC0868B1355180CD35D /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70597EBB7F5387960A032B414D895AD6 /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0CF4BDC8802921FF64FB5DB1D91065 /* Pods-Dyscope-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 441CC4CD895342EE0B701F613DD47AC2 /* Pods-Dyscope-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11879592214E3A5CD5F3271853A873A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		12FC4B98FD934F70465E89443BE0B382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2BB2E96BCD79F2998A8CBA823FAA08A7 /* appstore-card-transition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAF07E7F3E114F690A1772EA177F40E /* appstore-card-transition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C14D441C52052F8D9511109DE12F4E5 /* appstore-card-transition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47411896BB4726F4EA801FE2A1D3DB12 /* appstore-card-transition-dummy.m */; };
+		418AD15A5D8A8F8BF8465AF8BCA4C211 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC989869B8EB4AF349CB6B480F6D47 /* CardDetailViewController.swift */; };
+		559F7D2DAA6D86E23F8B2A651777E5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5A3E06C8C94B73097D29F31C2D6B10EB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99526FC038EF5BC978D5CFC552B39159 /* UIView+Extension.swift */; };
+		6DFAF00D142FCE961BCB0AE2B30189A5 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29CD9E9143EE916696B9CA1DE8046F6 /* CardTransition.swift */; };
+		7D8C05366F87C046219EDCB835447400 /* youtube-ios-player-helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE8364900080529676B0836872A4035 /* youtube-ios-player-helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8852042D957BACB4F9961ACA64434B21 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E03C19EFBB637958C505E2EA1A70C2 /* UIViewController+Extension.swift */; };
+		95360566E941F235D6B8CE1C4C3035D1 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472BF8610B95217FA62B2C96E8C42F3F /* youtube-ios-player-helper-dummy.m */; };
+		9A967F5286B1A4CB2BE4DF24F20A5A43 /* Pods-Dyscope-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E916EF40AB420DAA904BE51E40ED0F4B /* Pods-Dyscope-dummy.m */; };
+		A8867900F7C2C1B50736695F68DC89B0 /* DismissCardAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31E97A4B48D35E2274DD5802A43E27B /* DismissCardAnimator.swift */; };
+		A8C22822FA929E89335F959F79BD29D2 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94495191B7C216334BAC88C8C1850A9E /* Assets.bundle */; };
+		D03B6BD25AEC918C55C1A092C4ED472B /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7794D1D62B38DE0A002559C26D46DE /* YTPlayerView.m */; };
+		D18E153459FDD5E6140F04942425758C /* CardPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90480E143859ACD3C4E4C70C40F7B992 /* CardPresentationController.swift */; };
+		D63BE267BE8E808E3F98922D9192793A /* PresentCardAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45806E35DBD6263B14922ED86EF8F1A1 /* PresentCardAnimator.swift */; };
+		E61C6F88D3860AD33135EA1B483CDE5D /* AppstoreTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = FA202776982D55F3B8B7FE0DDAD24441 /* AppstoreTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9796FE772EC227917B9AB526DE0A3932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A7AF186BE136DE56FD5699070589B8;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+		DF7BF79D02108CF0800271067F13912E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8333080E4416539C89F976BCECB41319;
+			remoteInfo = "appstore-card-transition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E5DE4DF10249DE97D1D7BC4F5432D3 /* Pods-Dyscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dyscope.release.xcconfig"; sourceTree = "<group>"; };
+		14E03C19EFBB637958C505E2EA1A70C2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "Sources/AppstoreTransition/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		19ABBF65219AB6004865F13A7B4BB50A /* appstore-card-transition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "appstore-card-transition.modulemap"; sourceTree = "<group>"; };
+		2AB78D1DB51CE220A19703B854D691B0 /* Pods-Dyscope-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dyscope-frameworks.sh"; sourceTree = "<group>"; };
+		2CE8364900080529676B0836872A4035 /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		394AC566F73067627D9CBB78EA80AD05 /* Pods_Dyscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dyscope.framework; path = "Pods-Dyscope.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		441CC4CD895342EE0B701F613DD47AC2 /* Pods-Dyscope-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dyscope-umbrella.h"; sourceTree = "<group>"; };
+		45806E35DBD6263B14922ED86EF8F1A1 /* PresentCardAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentCardAnimator.swift; path = Sources/AppstoreTransition/PresentCardAnimator.swift; sourceTree = "<group>"; };
+		472BF8610B95217FA62B2C96E8C42F3F /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		47411896BB4726F4EA801FE2A1D3DB12 /* appstore-card-transition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "appstore-card-transition-dummy.m"; sourceTree = "<group>"; };
+		53072C00A5A27ADCBDC6BFAC0C5FC6BA /* youtube-ios-player-helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.release.xcconfig"; sourceTree = "<group>"; };
+		5C379F628EF58A6CD22A46A5AD2D67C2 /* youtube-ios-player-helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.debug.xcconfig"; sourceTree = "<group>"; };
+		6543C0A0DF805AF041C664356E21FD99 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardCollectionViewCell.swift; path = Sources/AppstoreTransition/CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		6DFC989869B8EB4AF349CB6B480F6D47 /* CardDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardDetailViewController.swift; path = Sources/AppstoreTransition/CardDetailViewController.swift; sourceTree = "<group>"; };
+		70597EBB7F5387960A032B414D895AD6 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		7132445BA1A37437BB327A1FE216BF37 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		79FE67ECC85E36DBE42B5955483A8D21 /* AppstoreTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppstoreTransition.framework; path = "appstore-card-transition.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8498A1B2C60117E181CA67921DDAE0B6 /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = youtube_ios_player_helper.framework; path = "youtube-ios-player-helper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897397491C35400F3A46F4825F23E78F /* youtube-ios-player-helper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "youtube-ios-player-helper-Info.plist"; sourceTree = "<group>"; };
+		8CAF07E7F3E114F690A1772EA177F40E /* appstore-card-transition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "appstore-card-transition-umbrella.h"; sourceTree = "<group>"; };
+		8E78331126014CBE9C508B4805E335B3 /* Pods-Dyscope.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dyscope.modulemap"; sourceTree = "<group>"; };
+		90480E143859ACD3C4E4C70C40F7B992 /* CardPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardPresentationController.swift; path = Sources/AppstoreTransition/CardPresentationController.swift; sourceTree = "<group>"; };
+		94495191B7C216334BAC88C8C1850A9E /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
+		98525217E30E6728FE630F0A33655E57 /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
+		99526FC038EF5BC978D5CFC552B39159 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Sources/AppstoreTransition/UIView+Extension.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7794D1D62B38DE0A002559C26D46DE /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		B2DC2EA48E5F4600970123B8AD92B99A /* appstore-card-transition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "appstore-card-transition-Info.plist"; sourceTree = "<group>"; };
+		B31E97A4B48D35E2274DD5802A43E27B /* DismissCardAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissCardAnimator.swift; path = Sources/AppstoreTransition/DismissCardAnimator.swift; sourceTree = "<group>"; };
+		B9A188DA6ADBB50B4093AE6BD7DEB202 /* appstore-card-transition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "appstore-card-transition.release.xcconfig"; sourceTree = "<group>"; };
+		C245A2447C2FE102CF3E50F33111F280 /* appstore-card-transition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "appstore-card-transition-prefix.pch"; sourceTree = "<group>"; };
+		C29CD9E9143EE916696B9CA1DE8046F6 /* CardTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTransition.swift; path = Sources/AppstoreTransition/CardTransition.swift; sourceTree = "<group>"; };
+		CAD190BEE4F9910BA87A37568491C0D1 /* appstore-card-transition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "appstore-card-transition.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC61A1A42E90833CDB039A7A8A96C63 /* Pods-Dyscope-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dyscope-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1065B79B6CB9A72397E911D60A6A4A7 /* Pods-Dyscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dyscope.debug.xcconfig"; sourceTree = "<group>"; };
+		E228E09CB35E52CCFD51150BBE1AFBFF /* Pods-Dyscope-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dyscope-acknowledgements.plist"; sourceTree = "<group>"; };
+		E916EF40AB420DAA904BE51E40ED0F4B /* Pods-Dyscope-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dyscope-dummy.m"; sourceTree = "<group>"; };
+		FA202776982D55F3B8B7FE0DDAD24441 /* AppstoreTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppstoreTransition.h; path = Sources/AppstoreTransition/AppstoreTransition.h; sourceTree = "<group>"; };
+		FC70174A1CF9E9BB4C21447C37D8B34F /* Pods-Dyscope-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dyscope-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5595812EFC47AA249A0B8193A0B1F932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559F7D2DAA6D86E23F8B2A651777E5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F440B266214E9984738089CFE97E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FC4B98FD934F70465E89443BE0B382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5C8EA784492671FEFB3996ABF5E9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11879592214E3A5CD5F3271853A873A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059D4CA28FC23AD6E8E40503A0CB5279 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				70597EBB7F5387960A032B414D895AD6 /* YTPlayerView.h */,
+				9F7794D1D62B38DE0A002559C26D46DE /* YTPlayerView.m */,
+				DA664691772114D205851C7E586F7072 /* Resources */,
+				4D7CF73891F9784B1A4D1C64E2DD44BD /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		19D35BF96BAA06AE206025D0B6571EEB /* Pods-Dyscope */ = {
+			isa = PBXGroup;
+			children = (
+				8E78331126014CBE9C508B4805E335B3 /* Pods-Dyscope.modulemap */,
+				DEC61A1A42E90833CDB039A7A8A96C63 /* Pods-Dyscope-acknowledgements.markdown */,
+				E228E09CB35E52CCFD51150BBE1AFBFF /* Pods-Dyscope-acknowledgements.plist */,
+				E916EF40AB420DAA904BE51E40ED0F4B /* Pods-Dyscope-dummy.m */,
+				2AB78D1DB51CE220A19703B854D691B0 /* Pods-Dyscope-frameworks.sh */,
+				FC70174A1CF9E9BB4C21447C37D8B34F /* Pods-Dyscope-Info.plist */,
+				441CC4CD895342EE0B701F613DD47AC2 /* Pods-Dyscope-umbrella.h */,
+				E1065B79B6CB9A72397E911D60A6A4A7 /* Pods-Dyscope.debug.xcconfig */,
+				02E5DE4DF10249DE97D1D7BC4F5432D3 /* Pods-Dyscope.release.xcconfig */,
+			);
+			name = "Pods-Dyscope";
+			path = "Target Support Files/Pods-Dyscope";
+			sourceTree = "<group>";
+		};
+		4D7CF73891F9784B1A4D1C64E2DD44BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98525217E30E6728FE630F0A33655E57 /* youtube-ios-player-helper.modulemap */,
+				472BF8610B95217FA62B2C96E8C42F3F /* youtube-ios-player-helper-dummy.m */,
+				897397491C35400F3A46F4825F23E78F /* youtube-ios-player-helper-Info.plist */,
+				7132445BA1A37437BB327A1FE216BF37 /* youtube-ios-player-helper-prefix.pch */,
+				2CE8364900080529676B0836872A4035 /* youtube-ios-player-helper-umbrella.h */,
+				5C379F628EF58A6CD22A46A5AD2D67C2 /* youtube-ios-player-helper.debug.xcconfig */,
+				53072C00A5A27ADCBDC6BFAC0C5FC6BA /* youtube-ios-player-helper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		545A25FCE745C8ED6FBF930B56560D13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19ABBF65219AB6004865F13A7B4BB50A /* appstore-card-transition.modulemap */,
+				47411896BB4726F4EA801FE2A1D3DB12 /* appstore-card-transition-dummy.m */,
+				B2DC2EA48E5F4600970123B8AD92B99A /* appstore-card-transition-Info.plist */,
+				C245A2447C2FE102CF3E50F33111F280 /* appstore-card-transition-prefix.pch */,
+				8CAF07E7F3E114F690A1772EA177F40E /* appstore-card-transition-umbrella.h */,
+				CAD190BEE4F9910BA87A37568491C0D1 /* appstore-card-transition.debug.xcconfig */,
+				B9A188DA6ADBB50B4093AE6BD7DEB202 /* appstore-card-transition.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/appstore-card-transition";
+			sourceTree = "<group>";
+		};
+		759CB13D4BF5F82E43CD5E41C7731A76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D35BF96BAA06AE206025D0B6571EEB /* Pods-Dyscope */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E161304FCE09B573FDDB771AAF78781 /* appstore-card-transition */ = {
+			isa = PBXGroup;
+			children = (
+				FA202776982D55F3B8B7FE0DDAD24441 /* AppstoreTransition.h */,
+				6543C0A0DF805AF041C664356E21FD99 /* CardCollectionViewCell.swift */,
+				6DFC989869B8EB4AF349CB6B480F6D47 /* CardDetailViewController.swift */,
+				90480E143859ACD3C4E4C70C40F7B992 /* CardPresentationController.swift */,
+				C29CD9E9143EE916696B9CA1DE8046F6 /* CardTransition.swift */,
+				B31E97A4B48D35E2274DD5802A43E27B /* DismissCardAnimator.swift */,
+				45806E35DBD6263B14922ED86EF8F1A1 /* PresentCardAnimator.swift */,
+				99526FC038EF5BC978D5CFC552B39159 /* UIView+Extension.swift */,
+				14E03C19EFBB637958C505E2EA1A70C2 /* UIViewController+Extension.swift */,
+				545A25FCE745C8ED6FBF930B56560D13 /* Support Files */,
+			);
+			name = "appstore-card-transition";
+			path = "appstore-card-transition";
+			sourceTree = "<group>";
+		};
+		9DE5A0E55E07FFC2144741589637FAD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E161304FCE09B573FDDB771AAF78781 /* appstore-card-transition */,
+				059D4CA28FC23AD6E8E40503A0CB5279 /* youtube-ios-player-helper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9DE5A0E55E07FFC2144741589637FAD5 /* Pods */,
+				D141FE0381AC73F11D183E6621DB06D8 /* Products */,
+				759CB13D4BF5F82E43CD5E41C7731A76 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D141FE0381AC73F11D183E6621DB06D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FE67ECC85E36DBE42B5955483A8D21 /* AppstoreTransition.framework */,
+				394AC566F73067627D9CBB78EA80AD05 /* Pods_Dyscope.framework */,
+				8498A1B2C60117E181CA67921DDAE0B6 /* youtube_ios_player_helper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA664691772114D205851C7E586F7072 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94495191B7C216334BAC88C8C1850A9E /* Assets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		950F9CA5BBD161C9823662ECEDD727E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CF4BDC8802921FF64FB5DB1D91065 /* Pods-Dyscope-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D9B7803829D42680BA215A141625F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C05366F87C046219EDCB835447400 /* youtube-ios-player-helper-umbrella.h in Headers */,
+				05DBC5A4A0411FC0868B1355180CD35D /* YTPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB414BBC039654954F97D6AF183F296 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB2E96BCD79F2998A8CBA823FAA08A7 /* appstore-card-transition-umbrella.h in Headers */,
+				E61C6F88D3860AD33135EA1B483CDE5D /* AppstoreTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8333080E4416539C89F976BCECB41319 /* appstore-card-transition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B0DFB4B7D6EE2B9A6C2B66148DAE32 /* Build configuration list for PBXNativeTarget "appstore-card-transition" */;
+			buildPhases = (
+				AFB414BBC039654954F97D6AF183F296 /* Headers */,
+				9AFD1A4F9093D088769CC27FF07C1A29 /* Sources */,
+				58F440B266214E9984738089CFE97E2D /* Frameworks */,
+				91612010B60BD24244FEDA0B2A082402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appstore-card-transition";
+			productName = "appstore-card-transition";
+			productReference = 79FE67ECC85E36DBE42B5955483A8D21 /* AppstoreTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20122DD765B62B4CDEF3E8EF198B58FD /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				A3D9B7803829D42680BA215A141625F6 /* Headers */,
+				1D0FE5D1FA457436D50E3286E7C355B5 /* Sources */,
+				5595812EFC47AA249A0B8193A0B1F932 /* Frameworks */,
+				5D870BFFEC56FA6BCB0BD3F7C619A53D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = 8498A1B2C60117E181CA67921DDAE0B6 /* youtube_ios_player_helper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB512FC45E57D48B0E7EF51E3B7D4836 /* Pods-Dyscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FD1946464A4852AC616F6A0052E5AC /* Build configuration list for PBXNativeTarget "Pods-Dyscope" */;
+			buildPhases = (
+				950F9CA5BBD161C9823662ECEDD727E0 /* Headers */,
+				3071CABAE8F58A14379E3B96F6C7850B /* Sources */,
+				EE5C8EA784492671FEFB3996ABF5E9AB /* Frameworks */,
+				240F31EA85960F6680536407952DFC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88413F514383B3FE5E4FBEC931BD5AF1 /* PBXTargetDependency */,
+				15DD3C663EC932875D88509A9A61CFC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Dyscope";
+			productName = "Pods-Dyscope";
+			productReference = 394AC566F73067627D9CBB78EA80AD05 /* Pods_Dyscope.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D141FE0381AC73F11D183E6621DB06D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8333080E4416539C89F976BCECB41319 /* appstore-card-transition */,
+				FB512FC45E57D48B0E7EF51E3B7D4836 /* Pods-Dyscope */,
+				D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240F31EA85960F6680536407952DFC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D870BFFEC56FA6BCB0BD3F7C619A53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C22822FA929E89335F959F79BD29D2 /* Assets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91612010B60BD24244FEDA0B2A082402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0FE5D1FA457436D50E3286E7C355B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95360566E941F235D6B8CE1C4C3035D1 /* youtube-ios-player-helper-dummy.m in Sources */,
+				D03B6BD25AEC918C55C1A092C4ED472B /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3071CABAE8F58A14379E3B96F6C7850B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A967F5286B1A4CB2BE4DF24F20A5A43 /* Pods-Dyscope-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD1A4F9093D088769CC27FF07C1A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C14D441C52052F8D9511109DE12F4E5 /* appstore-card-transition-dummy.m in Sources */,
+				0474C82547C23231C653770AEA0C8F83 /* CardCollectionViewCell.swift in Sources */,
+				418AD15A5D8A8F8BF8465AF8BCA4C211 /* CardDetailViewController.swift in Sources */,
+				D18E153459FDD5E6140F04942425758C /* CardPresentationController.swift in Sources */,
+				6DFAF00D142FCE961BCB0AE2B30189A5 /* CardTransition.swift in Sources */,
+				A8867900F7C2C1B50736695F68DC89B0 /* DismissCardAnimator.swift in Sources */,
+				D63BE267BE8E808E3F98922D9192793A /* PresentCardAnimator.swift in Sources */,
+				5A3E06C8C94B73097D29F31C2D6B10EB /* UIView+Extension.swift in Sources */,
+				8852042D957BACB4F9961ACA64434B21 /* UIViewController+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DD3C663EC932875D88509A9A61CFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */;
+			targetProxy = 9796FE772EC227917B9AB526DE0A3932 /* PBXContainerItemProxy */;
+		};
+		88413F514383B3FE5E4FBEC931BD5AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "appstore-card-transition";
+			target = 8333080E4416539C89F976BCECB41319 /* appstore-card-transition */;
+			targetProxy = DF7BF79D02108CF0800271067F13912E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17DE1538900B3FA6F0A43C32A6AB762F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1065B79B6CB9A72397E911D60A6A4A7 /* Pods-Dyscope.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dyscope/Pods-Dyscope-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dyscope/Pods-Dyscope.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52E143285700B39F0E55B8A5A19B696D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD190BEE4F9910BA87A37568491C0D1 /* appstore-card-transition.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/appstore-card-transition/appstore-card-transition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/appstore-card-transition/appstore-card-transition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/appstore-card-transition/appstore-card-transition.modulemap";
+				PRODUCT_MODULE_NAME = AppstoreTransition;
+				PRODUCT_NAME = AppstoreTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A0263D76F3E3C94BA2BC88DA37BE5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E5DE4DF10249DE97D1D7BC4F5432D3 /* Pods-Dyscope.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dyscope/Pods-Dyscope-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dyscope/Pods-Dyscope.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B766BFE5A025D81B5950612CC2DB4C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A188DA6ADBB50B4093AE6BD7DEB202 /* appstore-card-transition.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/appstore-card-transition/appstore-card-transition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/appstore-card-transition/appstore-card-transition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/appstore-card-transition/appstore-card-transition.modulemap";
+				PRODUCT_MODULE_NAME = AppstoreTransition;
+				PRODUCT_NAME = AppstoreTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7BA62901D3C00033E85D2E6CB389868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C379F628EF58A6CD22A46A5AD2D67C2 /* youtube-ios-player-helper.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9477447C515D9F142B9806AECE5438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53072C00A5A27ADCBDC6BFAC0C5FC6BA /* youtube-ios-player-helper.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20122DD765B62B4CDEF3E8EF198B58FD /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BA62901D3C00033E85D2E6CB389868 /* Debug */,
+				F9477447C515D9F142B9806AECE5438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B0DFB4B7D6EE2B9A6C2B66148DAE32 /* Build configuration list for PBXNativeTarget "appstore-card-transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E143285700B39F0E55B8A5A19B696D /* Debug */,
+				B766BFE5A025D81B5950612CC2DB4C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FD1946464A4852AC616F6A0052E5AC /* Build configuration list for PBXNativeTarget "Pods-Dyscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DE1538900B3FA6F0A43C32A6AB762F /* Debug */,
+				5A0263D76F3E3C94BA2BC88DA37BE5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - appstore-card-transition (1.0.4)
+  - youtube-ios-player-helper (1.0.2)
+
+DEPENDENCIES:
+  - appstore-card-transition
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - appstore-card-transition
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  appstore-card-transition: 660c136cb8a0f0004b2e99e99f1305bfa041f05c
+  youtube-ios-player-helper: 40b96e52c22445f0fdc43731cefa32c67075ff81
+
+PODFILE CHECKSUM: 625c12b301006335b3f58af4233a5164c7e96833
+
+COCOAPODS: 1.9.3
